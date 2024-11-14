@@ -124,3 +124,32 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
+nav ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left; 
+}
+
+nav a {
+    display: block;
+    width: 20%; 
+    text-align: center; 
+    text-decoration: none; 
+    background-color: #800000; 
+    color: white; 
+    font-weight: bold; 
+    padding: 1em 0; 
+}
+
+nav a:hover, nav a:focus {
+    text-decoration: underline; 
+}
+
+nav .current {
+    color: yellow; 
+}
