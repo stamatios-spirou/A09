@@ -126,32 +126,30 @@ footer p {
 }
 
 nav ul {
-    list-style: none;
+    list-style: none; 
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    float: left;
+    float: left; 
 }
 
 nav a {
     display: block;
-    width: 20%;
-    text-align: center;
-    text-decoration: none;
-    background-color: #800000;
-    color: white;
-    font-weight: bold;
-    padding: 1em 0;
+    width: 20%; 
+    text-align: center; 
+    text-decoration: none; 
+    background-color: #800000; 
+    color: white; 
+    font-weight: bold; 
+    padding: 1em 0; 
 }
 
 nav a:hover, nav a:focus {
-    text-decoration: underline;
-    background-color: #931420;
+    text-decoration: underline; 
 }
 
 nav .current {
-    color: yellow;
-    background-color: #931420 !important;
+    color: yellow; 
 }
