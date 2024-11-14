@@ -117,3 +117,70 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav li {
+    float: left;
+    position: relative;
+}
+
+nav a {
+    display: block;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #800000;
+    color: white;
+    font-weight: bold;
+    padding: 1em 0;
+}
+
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+}
+
+nav .current {
+    color: yellow;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #800000;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    float: none;
+}
+
+.submenu a {
+    padding: 0.5em 1em;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #931420;
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
