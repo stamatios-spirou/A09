@@ -153,5 +153,5 @@ nav a:hover, nav a:focus {
 
 nav .current {
     color: yellow;
-    background-color: #931420;
+    background-color: #931420 !important;
 }
